@@ -1,7 +1,9 @@
 export default function Blog(){
     return(<div>
-        <ul>
-            <li></li>
-        </ul>
+     <ul>
+        <li>
+            
+        </li>
+    </ul>
     </div>)
 }

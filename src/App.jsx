@@ -1,9 +1,12 @@
 import Blog from "./Components/Blog";
+import { AuthProvider } from "./context/AuthContext";
 
-export default function App(){
-  return(
-    <div>
-      <Blog/>
-    </div>
+export default function App() {
+  return (
+    <AuthProvider>
+      <div>
+        <Blog />
+      </div>
+    </AuthProvider>
   )
 }
