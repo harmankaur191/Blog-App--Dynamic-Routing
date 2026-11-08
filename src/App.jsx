@@ -1,7 +1,9 @@
+import Blog from "./Components/Blog";
+
 export default function App(){
   return(
     <div>
-      
+      <Blog/>
     </div>
   )
 }
